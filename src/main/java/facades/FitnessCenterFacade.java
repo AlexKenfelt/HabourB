@@ -21,7 +21,7 @@ public class FitnessCenterFacade {
     public static FitnessCenterFacade getFitnessCenterFacade(EntityManagerFactory _emf) {
         if (instance == null) {
             emf = _emf;
-            
+
             instance = new FitnessCenterFacade();
         }
         return instance;
